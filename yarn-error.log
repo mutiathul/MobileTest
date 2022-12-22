@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Windows 10 Pro\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Windows 10 Pro\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Android\openjdk\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Python27;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\PuTTY;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211;C:\Windows\System32;C:\Android\openjdk;C:\Program Files (x86)\Yarn\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\src\flutter\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\Windows 10 Pro\AppData\Roaming\nvm;C:\Program Files\nodejs;_C;C:\Program Files\Git\Program Files\Java\jdk-17\bin;C:\Android\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\maven\apache-maven-3.8.6\bin;C:\Program Files\maven\apache-maven-3.8.6\bin;C:\devtool\gradle-7.6\bin;C:\devtool\android_sdk\cmdline-tools\latest\bin;C:\devtool\android_sdk\platform-tools;C:\Users\Windows 10 Pro\AppData\Local\Yarn\bin;C:\Users\Windows 10 Pro\AppData\Roaming\Composer\vendor\bin;C:\Users\Windows 10 Pro\AppData\Local\Microsoft\WindowsApps;C:\tools\dart-sdk\bin;C:\Users\Windows 10 Pro\AppData\Roaming\Pub\Cache\bin;C:\Users\Windows 10 Pro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Windows 10 Pro\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@expo%2fvector-icons/Ionicons: Request "https://registry.npmjs.org/@expo%2fvector-icons/Ionicons" returned a 405
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66065:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140665:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141637:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "mobilepro",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@react-navigation/bottom-tabs": "^6.5.2",
+      "@react-navigation/native": "^6.1.1",
+      "expo": "~47.0.8",
+      "expo-image-picker": "~14.0.2",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5",
+      "@expo/vector-icons": "^13.0.0",
+      "@react-native-community/masked-view": "*",
+      "react-native-gesture-handler": "~2.5.0",
+      "react-native-pager-view": "5.4.24",
+      "react-native-paper": "^4.7.2",
+      "react-native-reanimated": "~2.9.1",
+      "react-native-safe-area-context": "4.3.1",
+      "react-native-screens": "~3.15.0",
+      "react-native-tab-view": "^3.0.0",
+      "@react-navigation/drawer": "6.4.1",
+      "@react-navigation/elements": "1.3.3",
+      "@react-navigation/material-bottom-tabs": "6.2.1",
+      "@react-navigation/material-top-tabs": "6.2.1",
+      "@react-navigation/native-stack": "6.6.1",
+      "@react-navigation/stack": "6.2.1",
+      "@expo/vector-icons/Ionicons": "^13.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
