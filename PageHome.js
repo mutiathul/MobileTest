@@ -53,7 +53,7 @@ const [visible, setVisible] = React.useState(false);
     <ImageBackground source={image}  style={styles.image}>
       
     </ImageBackground>
-    <View>
+    <View >
   
         <TouchableOpacity activeOpacity={0.7} style={styles.touchableOpacityStyle} onPress={showModal}>
         
@@ -81,6 +81,23 @@ const [visible, setVisible] = React.useState(false);
         
         
       </View>
+      <Card style={{ backgroundColor: '#ecf0f1', width: 350,  marginTop: 10 }} >
+                            <Card.Content>
+                            <HStack justifyContent="flex-start" flexDirection='row' space={2}>
+                            <Ionicons name="ribbon-sharp" size={60} color="black" />
+<View flexDirection='column'>
+    <Title style={{fontWeight:'600'}}>Total Poin Anda</Title>
+    <View flexDirection='row'>
+    <Text>230 Klaim Reward </Text>
+    
+    </View>
+    
+</View>
+<Btn_NB  variant="link" rightIcon={<Icon as={AntDesign} name="right"  size={30} />} style={{width:50,marginLeft:60}}/>
+
+</HStack>
+                            </Card.Content>
+                        </Card>
       <View style={styles.progres}>
         <Text>Lengkapi Profil Anda 2/3</Text>
         <ProgressBar progress={0.7} color="brown" />
@@ -92,7 +109,7 @@ const [visible, setVisible] = React.useState(false);
         <Btn_NB variant="outline" leftIcon={<Icon as={Entypo} name="bar-graph" size={30} />} style={{width:50}}/>
         <Btn_NB variant="outline" leftIcon={<Icon as={FontAwesome} name="users" size={30} />} style={{width:50}}/>
         </View>
-        <Card style={{backgroundColor: '#ecf0f1'}} >
+        <Card style={{backgroundColor: 'white'}} >
     <Card.Content>
       <Story />
       <Paragraph>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, Selengkapnya...</Paragraph>
@@ -140,6 +157,7 @@ const [visible, setVisible] = React.useState(false);
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:'white'
   },
   image: {
     flex: 1,
@@ -178,7 +196,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 10,
-    backgroundColor: '#ecf0f1',
+   
     
     
   },
@@ -187,7 +205,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     flexDirection:'row',
     padding: 10,
-    backgroundColor: '#ecf0f1',
+ 
     
     
   },

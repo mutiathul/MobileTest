@@ -39,7 +39,8 @@
     "react-native-tab-view": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "gh-pages": "^4.0.0"
   },
   "private": true
 }
