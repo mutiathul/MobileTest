@@ -42,5 +42,5 @@
     "@babel/core": "^7.12.9",
     "gh-pages": "^4.0.0"
   },
-  "private": true
+  "private": false
 }
